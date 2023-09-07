@@ -1,0 +1,142 @@
+$date
+	Mon Sep  4 17:01:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_array_mem_B $end
+$var wire 16 ! read_data_3 [15:0] $end
+$var wire 16 " read_data_2 [15:0] $end
+$var wire 16 # read_data_1 [15:0] $end
+$var wire 16 $ read_data_0 [15:0] $end
+$var reg 1 % clk $end
+$var reg 6 & read_addr_0 [5:0] $end
+$var reg 6 ' read_addr_1 [5:0] $end
+$var reg 6 ( read_addr_2 [5:0] $end
+$var reg 6 ) read_addr_3 [5:0] $end
+$var reg 1 * w_en $end
+$var reg 6 + write_addr [5:0] $end
+$var reg 16 , write_data [15:0] $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 6 - read_addr_0 [5:0] $end
+$var wire 6 . read_addr_1 [5:0] $end
+$var wire 6 / read_addr_2 [5:0] $end
+$var wire 6 0 read_addr_3 [5:0] $end
+$var wire 1 * w_en $end
+$var wire 6 1 write_addr [5:0] $end
+$var wire 16 2 write_data [15:0] $end
+$var reg 16 3 read_data_0 [15:0] $end
+$var reg 16 4 read_data_1 [15:0] $end
+$var reg 16 5 read_data_2 [15:0] $end
+$var reg 16 6 read_data_3 [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+0*
+bx )
+bx (
+bx '
+bx &
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b100 )
+b100 0
+b11 (
+b11 /
+b10 '
+b10 .
+b1 &
+b1 -
+1%
+#10
+0%
+#15
+b111 !
+b111 6
+b10 "
+b10 5
+b1101 #
+b1101 4
+b101 $
+b101 3
+b10001 )
+b10001 0
+b1101 (
+b1101 /
+b1001 '
+b1001 .
+b101 &
+b101 -
+1%
+#20
+0%
+#25
+b1110 !
+b1110 6
+b1101 "
+b1101 5
+b1111 #
+b1111 4
+b10 $
+b10 3
+b101010 ,
+b101010 2
+b10100 +
+b10100 1
+1*
+1%
+#30
+0%
+#35
+b10100 &
+b10100 -
+1%
+#40
+0%
+#45
+b101010 $
+b101010 3
+1%
+#50
+0%
+#55
+1%
+#60
+0%
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+0%
+#85
+1%
+#90
+0%
+#95
+1%

@@ -1,0 +1,141 @@
+$date
+	Wed Sep  6 23:47:55 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_PE_fi $end
+$var wire 16 ! C_out [15:0] $end
+$var wire 16 " B_out [15:0] $end
+$var wire 16 # A_out [15:0] $end
+$var reg 16 $ A [15:0] $end
+$var reg 16 % B [15:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' en $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 16 ) A [15:0] $end
+$var wire 16 * B [15:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' en $end
+$var wire 1 ( rst $end
+$var reg 16 + A_out [15:0] $end
+$var reg 16 , B_out [15:0] $end
+$var reg 16 - C [15:0] $end
+$var reg 16 . C_out [15:0] $end
+$var reg 32 / mul [31:0] $end
+$var reg 16 0 out_mem [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 0
+bx /
+b0 .
+bx -
+b0 ,
+b0 +
+b0 *
+b0 )
+x(
+1'
+0&
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#5
+b1000000000 "
+b1000000000 ,
+b110000000 #
+b110000000 +
+b1100000000 0
+b1100000000 -
+b110000000000000000 /
+b1000000000 %
+b1000000000 *
+b110000000 $
+b110000000 )
+1&
+#10
+0&
+#15
+b1100000000 !
+b1100000000 .
+b11001010 "
+b11001010 ,
+b1000011 #
+b1000011 +
+b1100110100 0
+b110100 -
+b11010011011110 /
+1&
+b11001010 %
+b11001010 *
+b1000011 $
+b1000011 )
+#20
+0&
+#25
+b1100110100 !
+b1100110100 .
+b1101101000 0
+1&
+#30
+0&
+#35
+b0 0
+b0 !
+b0 .
+b0 "
+b0 ,
+b0 #
+b0 +
+1&
+1(
+#40
+0&
+#45
+1&
+#50
+0&
+#55
+1&
+#60
+0&
+#65
+1&
+#70
+0&
+#75
+1&
+#80
+0&
+#85
+1&
+#90
+0&
+#95
+1&
+#100
+0&
+#105
+1&
+#110
+0&
+#115
+1&
+#120
+0&
+#125
+1&
+#130
+0&
+#135
+1&
